@@ -12,7 +12,7 @@ public class UnitOfMeasure {
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private Long id;
 
-        private String uom;
+        private String desciption;
 
     public Long getId() {
         return id;
@@ -22,11 +22,11 @@ public class UnitOfMeasure {
         this.id = id;
     }
 
-    public String getUom() {
-        return uom;
+    public String getDesciption() {
+        return desciption;
     }
 
-    public void setUom(String uom) {
-        this.uom = uom;
+    public void setDesciption(String desciption) {
+        this.desciption = desciption;
     }
 }
